@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="13dp"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="13dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:src="@drawable/horizonapplogo"
+                android:id="@+id/breadcrumbsIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/breadcrumbsName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratregular"
+                    android:text="Parkside Manor Apartment"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:minLines="1"
+                    android:maxLines="4"
+                    android:id="@+id/breadcrumbsCoordinates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratlight"
+                    android:text="LatLong° | 49.176700, -123.956619"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/breadcrumbsLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratlight"
+                    android:text="British Columbia, Canada"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/breadcrumbsKnownLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:minLines="1"
+                    android:maxLines="2"
+                    android:fontFamily="@font/montserratlight"
+                    android:paddingBottom="0dp"
+                    android:text="645 Townsite Road"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

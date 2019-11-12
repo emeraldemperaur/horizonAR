@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iot.empiaurhouse.horizonar.PermissionActivity"
+    android:id="@+id/permissions_activity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:text="@string/permission_error_txt"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:fontFamily="@font/montserratregular"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="6dp"
+        />
+
+    <TextView
+        android:id="@+id/permissions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:text="@string/permissions_txt"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserratregular"
+        android:layout_marginBottom="33dp"
+        />
+
+
+    <ImageView
+        android:elevation="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/permissionBot"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:src="@drawable/naorobot"
+        android:contentDescription="@string/logo_desc_txt" />
+
+
+
+
+
+
+
+    <Button
+
+        android:elevation="13dp"
+        android:layout_marginTop="19dp"
+        android:padding="0.5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/enable_location_button"
+        android:text="@string/enable_location_services"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:textSize="17sp"
+        android:fontFamily="@font/montserratsemibold"
+        android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

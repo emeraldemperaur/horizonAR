@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_gravity="bottom"
+        android:id="@+id/breadcrumbsTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabIndicatorHeight="4dp"
+        app:tabSelectedTextColor="@color/colorAccent"
+        app:tabTextColor="@color/colorPrimary"
+        app:tabBackground="@color/white"
+        app:tabTextAppearance="@style/BreadcrumbsTabFont"
+        app:tabMode="fixed"
+        >
+
+
+
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/BreadcrumbsViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

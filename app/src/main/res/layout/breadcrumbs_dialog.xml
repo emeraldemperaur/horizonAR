@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingEnd="16dp"
+            android:paddingStart="6dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:navigationIcon="@drawable/ic_close_red_24dp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:text="@string/breadcrumb_mode"
+        android:textColor="@color/colorAccent"
+        android:textSize="19sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/montserratregular"
+
+        />
+
+
+    <iot.empiaurhouse.horizonar.CustomToggle
+        android:id="@+id/crumbModeToggle"
+        android:layout_width="244dp"
+        android:layout_height="247dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        app:ctg_addAnimationType="jack_animation"
+        app:ctg_addLeftIcon="@drawable/ic_see_white_24dp"
+        app:ctg_addRightIcon="@drawable/ic_listen_white_24dp"
+        app:ctg_addSlideBackgroundColor="@color/colorPrimary"
+        app:ctg_addSlideColor="@color/colorAccent" />
+
+
+
+    <View
+        android:visibility="invisible"
+        android:layout_marginTop="-166dp"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:visibility="visible"
+        android:id="@+id/cardviewSeeCrumbEditor"
+        android:layout_width="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="288dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="0dp"
+        android:padding="13dp"
+        android:layout_gravity="center"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="5dp">
+
+
+
+
+
+        <LinearLayout
+            android:padding="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:visibility="visible"
+                android:text="@string/maxim"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/montserratregular"
+
+                />
+
+
+
+            <EditText
+
+                android:hint="@string/breadcrumb_title_textholder"
+                android:layout_marginStart="4dp"
+                android:visibility="visible"
+                android:id="@+id/breadcrumbSeeEditorMaxim"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="3"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="23sp"
+                android:inputType="text"
+                android:maxLength="13"
+                android:fontFamily="@font/montserratregular"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:visibility="visible"
+                android:text="@string/context"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/montserratregular"
+
+                />
+
+
+
+            <EditText
+                android:textAlignment="textStart"
+                android:hint="@string/enter_ar_breadcrumb_context"
+                android:minLines="3"
+                android:inputType="textMultiLine|textLongMessage"
+                android:layout_marginStart="4dp"
+                android:visibility="visible"
+                android:id="@+id/breadcrumbSeeEditorContext"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="23sp"
+                android:maxLength="100"
+                android:fontFamily="@font/montserratregular"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+
+
+                />
+
+
+
+        </LinearLayout></androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/cardviewListenCrumbEditor"
+        android:layout_width="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="288dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="0dp"
+        android:padding="13dp"
+        android:layout_gravity="center"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="5dp">
+
+
+
+
+
+        <LinearLayout
+            android:padding="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:visibility="visible"
+                android:text="@string/maxim"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/montserratregular"
+
+                />
+
+
+
+            <EditText
+                android:hint="@string/breadcrumb_title_textholder"
+                android:layout_marginStart="4dp"
+                android:visibility="visible"
+                android:id="@+id/breadcrumbListenEditorMaxim"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="3"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="23sp"
+                android:inputType="text"
+                android:maxLength="13"
+                android:fontFamily="@font/montserratregular"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:visibility="visible"
+                android:text="@string/sound"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/montserratregular"
+
+                />
+
+
+            <LinearLayout
+                android:layout_gravity="start"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginBottom="2dp"
+                    android:layout_margin="6dp"
+                    android:scaleType="fitXY"
+                    android:padding="0dp"
+                    android:src="@drawable/listenicon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+
+
+                <TextView
+                    android:id="@+id/fileBrowseButton"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:minLines="1"
+                    android:layout_marginStart="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:text="@string/browse_for_audio_file"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/montserratregular"
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout></androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:padding="2dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/maximUpdateButton"
+        android:text="@string/save_maxim_button"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_width="333dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/montserratsemibold"
+        android:layout_height="50dp" />
+
+
+
+</LinearLayout>

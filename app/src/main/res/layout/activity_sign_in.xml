@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iot.empiaurhouse.horizonar.SignInActivity"
+    android:id="@+id/signin_activity"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/banner_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+
+
+        <VideoView
+            android:id="@+id/bannerVideo"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:contentDescription="@string/signin_video_fx" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:text="@string/current_location_placeholder_txt"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:fontFamily="@font/montserratregular"
+            />
+
+
+        <TextView
+            android:id="@+id/bannerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserratsemibold"
+            android:minLines="2"
+            android:maxLines="2"
+            android:text="@string/location_placeholder_txt"
+            android:textColor="@color/white"
+            android:textSize="33sp"
+            android:visibility="visible"
+
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/signin_form_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:text="@string/signin_form_title"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/montserratregular"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/signInUsername"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="3"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="23sp"
+        android:inputType="textPersonName"
+        android:maxLength="13"
+        android:fontFamily="@font/montserratregular"
+        android:hint="@string/name_placeholder" />
+
+    <EditText
+        android:id="@+id/signInPhone"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="3"
+        android:textSize="23sp"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:fontFamily="@font/montserratregular"
+        android:hint="@string/phone_placeholder" />
+
+
+    <EditText
+        android:id="@+id/signInEmail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="3"
+        android:textSize="23sp"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/montserratregular"
+        android:hint="@string/email_placeholder"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:padding="2dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/discoverButton"
+        android:text="@string/discover"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/montserratsemibold"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

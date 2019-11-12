@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "529701804110",
+    "firebase_url": "https://horizonar-a79d4.firebaseio.com",
+    "project_id": "horizonar-a79d4",
+    "storage_bucket": "horizonar-a79d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529701804110:android:39aca75cb89055ec98cb1f",
+        "android_client_info": {
+          "package_name": "iot.empiaurhouse.horizonar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529701804110-qchladdcgol01emv876gnpf78lr284sd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iot.empiaurhouse.horizonar",
+            "certificate_hash": "de05b4f3d5d6b22ed9245ca4df3919f21d9a71c6"
+          }
+        },
+        {
+          "client_id": "529701804110-5iqq8lubqvb3ji2ubtn5q8isldfaman0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVx1uJEZrcseQ13zrRXK_dKJsuQ3ekahQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529701804110-5iqq8lubqvb3ji2ubtn5q8isldfaman0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

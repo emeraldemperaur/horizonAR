@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrologueActivity">
+
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/breadcrumbsToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            android:contentInsetLeft="0dp"
+            android:contentInsetStart="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:contentInsetRight="0dp"
+            android:contentInsetEnd="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetEnd="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+
+            <ImageView
+                android:id="@+id/closeStats"
+                android:layout_marginStart="@dimen/nav_icon_left"
+                android:layout_marginEnd="4dp"
+                android:padding="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:contentDescription="@string/closeprofile" />
+
+
+            <iot.empiaurhouse.horizonar.TypeWriterTextView
+                android:visibility="visible"
+                android:layout_marginStart="0dp"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:id="@+id/myStats"
+                android:fontFamily="@font/montserratregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horizon Stats"
+                android:textColor="@color/white"
+                android:textSize="27sp"
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_stats"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

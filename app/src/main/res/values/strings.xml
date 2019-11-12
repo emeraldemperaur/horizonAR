@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Horizon AR</string>
+    <string name="logo_text">HORIZON</string>
+    <string name="logo_subtext">An AR Experience</string>
+    <string name="logo_desc_txt">house_logo</string>
+    <string name="permission_error_txt">Uh Oh!</string>
+    <string name="permissions_txt">Explicit Permission Required to Continue</string>
+    <string name="enable_location_services">ENABLE LOCATION SERVICES</string>
+    <string name="locationDisabled">Location is not enabled!</string>
+    <string name="toastimage">toastImage</string>
+    <string name="discover">DISCOVER AR</string>
+    <string name="signin_form_title">PLEASE ENTER PROFILE DETAILS</string>
+    <string name="name_placeholder">Name</string>
+    <string name="phone_placeholder">Phone</string>
+    <string name="email_placeholder">Email</string>
+    <string name="location_placeholder_txt">Not Available</string>
+    <string name="current_location_placeholder_txt">CURRENT LOCATION</string>
+    <string name="signin_video_fx">SignIn Video FX</string>
+    <string name="runtime_permissions_txt">Please enable ALL required app permissions to continue</string>
+    <string name="EmailError">Invalid Email</string>
+    <string name="NameError">Username Required</string>
+    <string name="hello">Hello</string>
+    <string name="greeting">Good Morning</string>
+    <string name="user_name_holder">User Name</string>
+    <string name="red_pill_or_blue_pill">Red Pill or Blue Pill?</string>
+    <string name="loading">LOADING</string>
+    <string name="initiating">INITIATING</string>
+    <string name="cityHolderText">City</string>
+    <string name="vancouver">Vancouver</string>
+    <string name="augmented_reality">AUGMENTED</string>
+    <string name="alternate_reality">ALTERNATE</string>
+    <string name="reality">REALITY</string>
+
+    <string name="explore">Explore</string>
+    <string name="see">See</string>
+    <string name="hear">Hear</string>
+    <string name="discover_title">Discover your Horizon</string>
+    <string name="discover_desc">Discover an interactive alternate reality superimposed on the corporeal world around you through the awesome power of Augmented Reality</string>
+    <string name="explore_title">Explore</string>
+    <string name="explore_desc">Explore the other side of %1$s through the looking glass. Traverse the expanses of your real world to uncover the treasures &amp; secrets of the sublime</string>
+    <string name="see_title">See</string>
+    <string name="see_desc">Unleash your inner Hansel and Gretel. Leave an AR Breadcrumb to make your mark on a boundless augmented reality that surrounds you</string>
+    <string name="hear_title">Hear</string>
+    <string name="hear_desc">Listen in and keep your composure like Gershwin. Tag a sound to your AR Breadcrumbs to associate a favourite tune with a geospatial place of interest</string>
+    <string name="eventhorizon_title">Gaze Through The Looking Glass</string>
+    <string name="eventhorizon_desc">Heads up, %1$s! You\'re approaching the event horizon. Please hold mobile device in portrait mode for the best reality augmentation experience</string>
+
+    <string name="menu_purview">AR Purview</string>
+    <string name="menu_myProfile">My Profile</string>
+    <string name="menu_breadcrumbs">AR Breadcrumbs</string>
+    <string name="menu_horizonStats">Horizon Stats</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_info">App Info</string>
+    <string name="menu_logout">Log Out</string>
+
+
+    <string name="google_live_adMob_id">ca-app-pub-1184437456390972~6439610643</string>
+    <string name="google_test_adMob_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="test_interstitial_ad_unit_id">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="live_ad_unit_id">ca-app-pub-1184437456390972/8820207887</string>
+    <string name="title_activity_purview">PurviewActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Purview</string>
+    <string name="menu_gallery">My Profile</string>
+    <string name="menu_slideshow">AR Breadcrumbs</string>
+    <string name="menu_tools">Horizon Stats</string>
+    <string name="menu_share">Settings</string>
+    <string name="menu_send">App Info</string>
+    <string name="welcome">Welcome!</string>
+    <string name="about_horizon_ar">About Horizon AR</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update">UPDATE</string>
+    <string name="ar_profile_info">AR PROFILE INFO</string>
+    <string name="closeprofile">closeProfile</string>
+    <string name="divider">|</string>
+    <string name="purview_mode">purview Mode</string>
+    <string name="ar_breadcrumbs">AR Breadcrumbs</string>
+    <string name="about_horizon">About Horizon</string>
+    <string name="build_info">BUILD INFO</string>
+    <string name="developer_info">DEVELOPER INFO</string>
+    <string name="build_version_1_0_0">Build Version: 1.0.0</string>
+    <string name="ar_core_version_1_12_0">AR Core Version: 1.12.0</string>
+    <string name="developer_name">EMEKA EGWIM</string>
+    <string name="developer_website_url">www.emekaegwim.com</string>
+    <string name="emeka_egwim_empiaurhouse_com">emeka.egwim@empiaurhouse.com</string>
+    <string name="device_info">DEVICE INFO</string>
+    <string name="github_com_emeraldemperaur">github.com/emeraldemperaur</string>
+    <string name="last_adventure_holder">Last AR Adventure: 10 September, 2019</string>
+    <string name="discoverer_rank">DISCOVERER RANK</string>
+    <string name="favourite_locations">FAVOURITE LOCATION(S)</string>
+    <string name="countries_visited">COUNTRIES VISITED</string>
+    <string name="cities_explored">CITIES EXPLORED</string>
+    <string name="breadcrumbs_count">BREADCRUMBS COUNT</string>
+    <string name="see_text">SEE</string>
+    <string name="listen_text">LISTEN</string>
+    <string name="crumbs_editor">AR Breadcrumb Editor</string>
+    <string name="save_maxim_button">UPDATE MAXIM</string>
+    <string name="breadcrumb_title_textholder">Breadcrumb Title</string>
+    <string name="enter_ar_breadcrumb_context">Enter AR Breadcrumb Context</string>
+    <string name="context">CONTEXT</string>
+    <string name="maxim">MAXIM</string>
+    <string name="breadcrumb_mode">BREADCRUMB MODE</string>
+    <string name="sound">SOUND</string>
+    <string name="browse_for_audio_file">Browse for Audio File</string>
+    <string name="user">\@Chrome</string>
+    <string name="untitled_holdertext">Untitled</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="not_available">Not Available</string>
+
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/prologuebackground"
+    tools:context=".PrologueActivity">
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:id="@+id/prologueGreeting"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/montserratmedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting"
+        android:textColor="@color/colorAccent"
+        android:textSize="39sp"
+        android:visibility="invisible"
+        />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/prologueUserName"
+        android:fontFamily="@font/montserratmedium"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name_holder"
+        android:textColor="@color/colorAccent"
+        android:textSize="33sp"
+        />
+
+
+
+
+
+
+
+    <ImageView
+        android:transitionName="horizonLogo"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/intro_img1"
+        android:src="@drawable/horizonapplogo"
+
+        />
+
+
+
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:id="@+id/loadingText"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/montserratregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        />
+
+    <TextView
+        android:visibility="invisible"
+        android:background="#00ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/loadingCity"
+        android:layout_marginTop="-13dp"
+        android:fontFamily="@font/montserratsemibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vancouver"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:padding="3dp"
+        android:textSize="37sp"
+        android:lineSpacingExtra="-3dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="-6dp"
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <iot.empiaurhouse.horizonar.TypeWriterTextView
+            android:visibility="invisible"
+            android:layout_marginStart="0dp"
+            android:layout_gravity="center"
+            android:id="@+id/realityTextA"
+            android:fontFamily="@font/montserratregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alternate_reality"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            />
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_marginStart="9dp"
+            android:layout_gravity="center"
+            android:id="@+id/realityTextB"
+            android:fontFamily="@font/montserratregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reality"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
